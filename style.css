@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    /* Sizing */
+    width: 100%;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('img/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+
+    /* Background styles */
+    background-color: rgba(248, 148, 6, 0.8);
+}
+
+main
+{
+  background: url(https://i.imgur.com/MJAkxbh.png);
+}
+
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0,.8);
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+nav ul li a:hover{
+  background: orange;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+  text-align: justify;
+  justify-content: center;
+}
+
+
+.content h1 {
+  margin-top: 0;
+  text-align: left;
+}
+
+
+.image img {
+   width: auto;
+   height: 50vh;
+   
+}
+
+.content{
+  margin-right: 1em;
+}
+
+#parallax1 {
+  width: 100%;
+  height: 35vh;
+  
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url('img/church.jpg');
+}
